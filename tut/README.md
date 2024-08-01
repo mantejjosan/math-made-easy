@@ -77,4 +77,18 @@ To get started with using MathJax in your Jekyll-powered GitHub Pages site, foll
 
 By following these steps, you'll have a Jekyll site set up with MathJax support, allowing you to write mathematical expressions in your Markdown files using LaTeX syntax.
 
+### **Summary of setup**
+- You should now have three files: `_config.yml`, `_layouts/default.html`, `index.md`
+- `_config.yml` contains the theme settings you can change the theme by [reading this](https://github.com/mantejjosan/math-made-easy/edit/main/tut/README.md#how-to-change-the-theme)
+
 ***Further refinements and theme settings on the way***
+
+
+## FAQ
+### How to change the theme
+There are many themes available here in [pages.github.com/themes](pages.github.com/themes) for jekyll also you can create your own theme.
+1. Choose any theme (for example Architect)
+2. Clicking on any theme will redirect to the theme's repo and there select the `_layouts` folder
+![_layouts folder](Images/layoutdemo.PNG)
+3. Now copy eveything from the `default.html` file and paste it into your repo's `_layouts/default.html` file.
+4. **Don't forget to add the [mathjax cdn](#setup) and boiler plate in th elast lines of the head tag in `_layouts/default.html`**
