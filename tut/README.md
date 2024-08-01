@@ -16,7 +16,16 @@ Whether you're creating a technical blog, documenting scientific research, or bu
 5. Tex: renders LaTeX locally unlike Mathjax that render on the webpage
 
 ## Steps
-``` include a diagram using mermaid js```
+``` flowchart LR
+    subgraph serverSide["Server Side"]
+        A(Markdown<br>$e = mc^2$) -->|jekyll|B(HTML<br>$e = mc^2$)
+    end 
+
+    subgraph clientSide["Client Side"]
+        B -->|Mathjax| C(HTML<br>e = mc² )
+    end
+    
+```
 
 ## Setup
 
